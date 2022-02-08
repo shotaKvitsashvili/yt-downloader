@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "myriad";
+    src: url("../fonts/MYRIAD-GEO.otf");
+}
+
+@font-face {
+    font-family: "helvetica";
+    src: url("../fonts/HELVETICA-LIGHT.otf");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.like_heading {
+    font-feature-settings: "case" on;
+    font-family: "myriad";
+    letter-spacing: 0.6px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "helvetica";
+    font-size: 12px;
+    background-color: #F7F7F8;
+}

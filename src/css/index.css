@@ -1,0 +1,51 @@
+.logo::before {
+    content: "";
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    transform: translateX(-50%);
+    background-color: #0c93f1;
+}
+
+/* .main-container {
+    margin: 0 auto;
+}
+
+@media (max-width: 668px) {
+    .main-container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 668px) {
+    .main-container {
+        width: 658px;
+    }
+}
+
+@media (min-width: 924px) {
+    .main-container {
+        width: 914px;
+    }
+}
+
+@media (min-width: 1120px) {
+    .main-container {
+        width: 1110px;
+    }
+}
+
+@media (min-width: 1270px) {
+    .main-container {
+        width: 1260px;
+    }
+} */
+
+
+
+
+
+
+
