@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "homepage": "https://shotakvitsashvili.github.io/home",
+  "homepage": "https://shotakvitsashvili.github.io/yt-downloader/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
