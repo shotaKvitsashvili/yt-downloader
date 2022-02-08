@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33.246" viewBox="0 0 32 33.246">
+	<g id="monitor-recorder" transform="translate(0 1.246)">
+		<path id="Vector" d="M26.667,13.187v1.187c0,4.747-1.187,5.92-5.92,5.92H5.92c-4.733,0-5.92-1.187-5.92-5.92V5.92C0,1.187,1.187,0,5.92,0H8" transform="translate(2.667 2.667)" fill="none" stroke="#141E33" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+		<path id="Vector-2" data-name="Vector" d="M0,0V6.373" transform="translate(16 22.96)" fill="none" stroke="#141E33" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+		<path id="Vector-3" data-name="Vector" d="M0,0H26.667" transform="translate(2.667 17.333)" fill="none" stroke="#141E33" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+		<path id="Vector-4" data-name="Vector" d="M0,0H12" transform="translate(10 29.333)" fill="none" stroke="#141E33" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+		<path id="Vector-5" data-name="Vector" d="M0,0H32V32H0Z" fill="none" opacity="0" />
+		<g id="Group_1" data-name="Group 1" transform="translate(-732 -361.746)">
+			<path id="Vector-6" data-name="Vector" d="M9.048,4.524A4.524,4.524,0,1,1,4.524,0,4.524,4.524,0,0,1,9.048,4.524Z" transform="translate(748 362)" fill="none" stroke="#141E33" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+			<path id="Vector-7" data-name="Vector" d="M1.952,1.952,0,0" transform="translate(756.5 370.5)" fill="none" stroke="#141E33" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+		</g>
+	</g>
+</svg>

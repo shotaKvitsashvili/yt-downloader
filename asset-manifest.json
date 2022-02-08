@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/yt-downloader/static/css/main.e2303104.css",
+    "main.js": "/yt-downloader/static/js/main.ae23caf2.js",
+    "static/media/MYRIAD-GEO.otf": "/yt-downloader/static/media/MYRIAD-GEO.166d69f52e7e30bfce21.otf",
+    "static/media/HELVETICA-LIGHT.otf": "/yt-downloader/static/media/HELVETICA-LIGHT.63097fd915d715e6d9b1.otf",
+    "static/media/copy.svg": "/yt-downloader/static/media/copy.7df1f5a991a4dd57787211d53d690a5b.svg",
+    "static/media/input.svg": "/yt-downloader/static/media/input.224537caca1f98064c5529bf48702412.svg",
+    "static/media/download.svg": "/yt-downloader/static/media/download.c10f4aecac17f4937e919d9043d3159d.svg",
+    "static/media/download-black.svg": "/yt-downloader/static/media/download-black.0d5c1aecf36514913771cb4e433a6825.svg",
+    "index.html": "/yt-downloader/index.html",
+    "static/media/logo.svg": "/yt-downloader/static/media/logo.fa069d17310dde9da8bf05b1f7b28d19.svg",
+    "main.e2303104.css.map": "/yt-downloader/static/css/main.e2303104.css.map",
+    "main.ae23caf2.js.map": "/yt-downloader/static/js/main.ae23caf2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2303104.css",
+    "static/js/main.ae23caf2.js"
+  ]
+}
