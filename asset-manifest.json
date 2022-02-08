@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.54b05b50.css",
-    "main.js": "/static/js/main.3a73fd00.js",
-    "static/media/MYRIAD-GEO.otf": "/static/media/MYRIAD-GEO.166d69f52e7e30bfce21.otf",
-    "static/media/HELVETICA-LIGHT.otf": "/static/media/HELVETICA-LIGHT.63097fd915d715e6d9b1.otf",
-    "static/media/copy.svg": "/static/media/copy.7df1f5a991a4dd57787211d53d690a5b.svg",
-    "static/media/input.svg": "/static/media/input.224537caca1f98064c5529bf48702412.svg",
-    "static/media/download.svg": "/static/media/download.c10f4aecac17f4937e919d9043d3159d.svg",
-    "static/media/download-black.svg": "/static/media/download-black.0d5c1aecf36514913771cb4e433a6825.svg",
-    "index.html": "/index.html",
-    "main.54b05b50.css.map": "/static/css/main.54b05b50.css.map",
-    "main.3a73fd00.js.map": "/static/js/main.3a73fd00.js.map"
+    "main.css": "/home/static/css/main.ac97c7ba.css",
+    "main.js": "/home/static/js/main.10d66849.js",
+    "static/media/MYRIAD-GEO.otf": "/home/static/media/MYRIAD-GEO.166d69f52e7e30bfce21.otf",
+    "static/media/HELVETICA-LIGHT.otf": "/home/static/media/HELVETICA-LIGHT.63097fd915d715e6d9b1.otf",
+    "static/media/copy.svg": "/home/static/media/copy.7df1f5a991a4dd57787211d53d690a5b.svg",
+    "static/media/input.svg": "/home/static/media/input.224537caca1f98064c5529bf48702412.svg",
+    "static/media/download.svg": "/home/static/media/download.c10f4aecac17f4937e919d9043d3159d.svg",
+    "static/media/download-black.svg": "/home/static/media/download-black.0d5c1aecf36514913771cb4e433a6825.svg",
+    "index.html": "/home/index.html",
+    "main.ac97c7ba.css.map": "/home/static/css/main.ac97c7ba.css.map",
+    "main.10d66849.js.map": "/home/static/js/main.10d66849.js.map"
   },
   "entrypoints": [
-    "static/css/main.54b05b50.css",
-    "static/js/main.3a73fd00.js"
+    "static/css/main.ac97c7ba.css",
+    "static/js/main.10d66849.js"
   ]
 }
