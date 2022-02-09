@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yt-downloader/static/css/main.e2303104.css",
-    "main.js": "/yt-downloader/static/js/main.c7e1a3b9.js",
+    "main.js": "/yt-downloader/static/js/main.0bb1a81d.js",
     "static/media/MYRIAD-GEO.otf": "/yt-downloader/static/media/MYRIAD-GEO.166d69f52e7e30bfce21.otf",
     "static/media/HELVETICA-LIGHT.otf": "/yt-downloader/static/media/HELVETICA-LIGHT.63097fd915d715e6d9b1.otf",
     "static/media/copy.svg": "/yt-downloader/static/media/copy.7df1f5a991a4dd57787211d53d690a5b.svg",
@@ -10,10 +10,10 @@
     "static/media/download-black.svg": "/yt-downloader/static/media/download-black.0d5c1aecf36514913771cb4e433a6825.svg",
     "index.html": "/yt-downloader/index.html",
     "main.e2303104.css.map": "/yt-downloader/static/css/main.e2303104.css.map",
-    "main.c7e1a3b9.js.map": "/yt-downloader/static/js/main.c7e1a3b9.js.map"
+    "main.0bb1a81d.js.map": "/yt-downloader/static/js/main.0bb1a81d.js.map"
   },
   "entrypoints": [
     "static/css/main.e2303104.css",
-    "static/js/main.c7e1a3b9.js"
+    "static/js/main.0bb1a81d.js"
   ]
 }
