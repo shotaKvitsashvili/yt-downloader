@@ -35,11 +35,22 @@ function Converter() {
         setIsConverting(true)
         setConvertingFinished(false)
 
-        if (url.includes('youtube.com/watch?v=')) {
+        const isWeb = url.includes('youtube.com/watch?v=')
+        const isApp = url.includes('youtu.be')
+
+        if (isWeb || isApp) {
             setIsValidUrl(true)
 
-            let u = url.split('v=')[1]
-            u = u.split('&')[0]
+            let u;
+
+            if (isWeb) {
+                u = url.split('v=')[1]
+                u = u.split('&')[0]
+            }
+
+            if (isApp) {
+                u = url.split('youtu.be/')[1];
+            }
 
             axios.get(`https://www.yt-download.org/api/widget/mp3/${u}`)
                 .then(data => {
