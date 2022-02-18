@@ -11,6 +11,15 @@
 
 .banner-iframe {
     width: 100%;
+    pointer-events: none;
+}
+
+.yt-link-input {
+    transition: all .2s ease-in-out;
+}
+
+.yt-link-input:hover {
+    box-shadow: 1px 0px 20px 5px #0000000a;
 }
 
 /* .main-container {
@@ -46,10 +55,18 @@
         width: 1260px;
     }
 } */
+.converter-box {
+    flex-wrap: nowrap;
+}
 
+@media (min-width: 1280px) {
+    .container {
+        width: 1230px !important;
+    }
+}
 
-
-
-
-
-
+@media (max-width: 1024px) {
+    .converter-box {
+        flex-wrap: wrap;
+    }
+}

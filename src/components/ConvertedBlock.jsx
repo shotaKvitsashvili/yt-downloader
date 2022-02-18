@@ -21,7 +21,7 @@ function ConvertedBlock({
                     <p>ლინკის სწორად შეყვანისთვის აუცილებელია მისამართი იწყებოდეს: https://www.youtube.com/watch?v=id-ით</p>
                 </div>
                 :
-                convertingFinished && <div className='rounded-3xl bg-white w-full lg:p-6 p-4 flex items-stretch flex-wrap'>
+                convertingFinished && <div className='rounded-3xl bg-white w-full lg:p-6 p-4 flex items-stretch converter-box'>
 
                     {
                         imgSrc && <img src={imgSrc} className="rounded-2xl w-full lg:w-auto object-cover" />
@@ -30,22 +30,24 @@ function ConvertedBlock({
                     <div className="flex flex-col justify-between lg:ml-6 ml-0 lg:mt-0 mt-4 w-full lg:w-auto">
                         <div>
                             {
-                                heading && <h2 className='text-xl'>{heading}</h2>
+                                heading && <h2 className='text-xl w-full lg:w-[90%]'>{heading}</h2>
                             }
 
-                            {
-                                duration && <div style={{ fontSize: '14px', marginTop: '10px' }} className="flex items-center my-4 lg:my-0">
-                                    <span className='text-text opacity-60'>ხანგრძლივობა: &nbsp;</span>
-                                    {duration}
-                                </div>
-                            }
+                            <div className="my-4">
+                                {
+                                    duration && <div style={{ fontSize: '14px' }} className="flex items-center my-4 lg:my-0">
+                                        <span className='text-text opacity-60'>ხანგრძლივობა: &nbsp;</span>
+                                        {duration}
+                                    </div>
+                                }
 
-                            {
-                                fileSize && <div style={{ fontSize: '14px' }} className="flex items-center my-4 lg:my-0">
-                                    <span className='text-text opacity-60'>ფაილის ზომა: &nbsp;</span>
-                                    {fileSize?.toLowerCase().trim()}
-                                </div>
-                            }
+                                {
+                                    fileSize && <div style={{ fontSize: '14px' }} className="flex items-center my-4 lg:my-0">
+                                        <span className='text-text opacity-60'>ფაილის ზომა: &nbsp;</span>
+                                        {fileSize?.toLowerCase().trim()}
+                                    </div>
+                                }
+                            </div>
                         </div>
 
 

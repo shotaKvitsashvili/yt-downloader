@@ -84,7 +84,7 @@ function Converter() {
         <div className='pt-14'>
             <h1 className='text-[20px] text-center'>ჩამოტვირთე YOUTUBE ვიდეოები MP3 ფორმატში</h1>
 
-            <div className="flex w-full items-center border border-primary mt-8 rounded-full cursor-text bg-white" onClick={() => inputRef.current.focus()}>
+            <div className="flex w-full items-center border border-primary mt-8 rounded-full cursor-text bg-white yt-link-input" onClick={() => inputRef.current.focus()}>
                 <div className="ml-4 my-2 flex-1">
                     <input
                         type="text"

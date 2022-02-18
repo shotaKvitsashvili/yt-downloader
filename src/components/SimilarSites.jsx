@@ -39,7 +39,7 @@ function SimilarSites() {
             {
                 sites.map(site => (
                     <a href={site.url} key={site.name} target="_blank">
-                        <div className="rounded-2xl bg-white xl:p-12 lg:p-10 p-6 relative grayscale hover:grayscale-0 transition duration-150 lg:h-[180px] h-auto">
+                        <div className="rounded-2xl bg-white xl:p-12 lg:p-10 p-6 relative grayscale hover:grayscale-0 transition duration-150 min-h-[190px] overflow-hidden">
                             <div className="w-2/3">
                                 <div className="flex items-center">
                                     <img src={site.icon} alt={site.name} className="max-w-[22px]" />
@@ -54,7 +54,7 @@ function SimilarSites() {
                                 </div>
                             </div>
 
-                            <div className='absolute right-0 top-0 h-full'>
+                            <div className='absolute right-[-5px] top-0 h-full'>
                                 <img src={site.img} alt={site.name} className="h-full" />
                             </div>
                         </div>

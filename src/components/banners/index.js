@@ -30,6 +30,7 @@ function Banners() {
     // Google click tracker-ისთვის
     const redirectOutside = banner => {
         window.open(banner.url)
+        console.log(banner);
     }
 
     return (
