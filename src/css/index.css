@@ -9,6 +9,10 @@
     background-color: #0c93f1;
 }
 
+.banner-iframe {
+    width: 100%;
+}
+
 /* .main-container {
     margin: 0 auto;
 }

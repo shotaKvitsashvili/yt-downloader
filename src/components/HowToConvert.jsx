@@ -24,11 +24,11 @@ function HowToConvert() {
     ]
 
     return <>
-        <h1 className='text-[20px] text-center mt-16 mb-8'>როგორ გადავიყვანოთ YOUTUBE-ის ლინკი MP3 ფორმატში</h1>
-        <div className="grid md:grid-cols-3 gap-4">
+        <h1 className='text-[20px] text-center mb-8'>როგორ გადავიყვანოთ YOUTUBE-ის ლინკი MP3 ფორმატში</h1>
+        <div className="grid lg:grid-cols-3 gap-4">
             {
                 steps.map(step => (
-                    <div key={step.heading} className="flex flex-col items-center text-center rounded-2xl bg-white xl:p-16 lg:p-10 p-6">
+                    <div key={step.heading} className="flex flex-col items-center text-center rounded-2xl bg-white xl:p-15 lg:p-10 p-6">
                         <img src={step.icon} alt={step.heading} className="opacity-30 w-[32px] h-[32px]" />
                         <h3 className='text-[14px] mt-4 mb-3'>{step.heading}</h3>
                         <p className='opacity-60 color-text'>{step.desc}</p>

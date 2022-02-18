@@ -10,6 +10,7 @@
     "axios": "^0.19.2",
     "buffer": "^6.0.3",
     "gh-pages": "^3.2.3",
+    "moment": "^2.29.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-html-parser": "^2.0.2",

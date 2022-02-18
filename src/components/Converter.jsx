@@ -4,6 +4,9 @@ import { useState, useEffect } from 'react';
 import axios from 'axios'
 import ReactHtmlParser from 'react-html-parser'
 import ConvertedBlock from './ConvertedBlock';
+import Banners from './banners';
+
+import moment from 'moment';
 
 function Converter() {
     const [url, setUrl] = useState('')
@@ -15,6 +18,7 @@ function Converter() {
     const [heading, setHeading] = useState(null)
     const [downloadLink, setDownloadLink] = useState(null)
     const [fileSize, setFileSize] = useState(null)
+    const [vidDuration, setVidDuration] = useState('')
 
     const inputRef = useRef(null)
 
@@ -41,18 +45,18 @@ function Converter() {
         if (isWeb || isApp) {
             setIsValidUrl(true)
 
-            let u;
+            let id;
 
             if (isWeb) {
-                u = url.split('v=')[1]
-                u = u.split('&')[0]
+                id = url.split('v=')[1]
+                id = id.split('&')[0]
             }
 
             if (isApp) {
-                u = url.split('youtu.be/')[1];
+                id = url.split('youtu.be/')[1];
             }
 
-            axios.get(`https://www.yt-download.org/api/widget/mp3/${u}`)
+            axios.get(`https://www.yt-download.org/api/widget/mp3/${id}`)
                 .then(data => {
                     let h = data.data.split('<body>')[1];
                     h = h.split('</body>')[0]
@@ -61,13 +65,22 @@ function Converter() {
                     setIsConverting(false)
                     setConvertingFinished(true)
                 })
+
+            axios.get(`https://www.googleapis.com/youtube/v3/videos?id=${id}&part=contentDetails&key=AIzaSyBSnM0vxCKc_3MzgZtncJ2Aept_0eQLIbo`)
+                .then(data => {
+                    const minutes = moment.duration(data.data.items[0]?.contentDetails.duration).minutes()
+                    const seconds = moment.duration(data.data.items[0]?.contentDetails.duration).seconds()
+
+                    setVidDuration(minutes + ':' + seconds)
+                })
+
         } else {
             setIsConverting(false)
             setIsValidUrl(false)
         }
     }
 
-    return <div className="overflow-hidden">
+    return <div className={`overflow-hidden ${convertingFinished ? 'mb-8' : ''}`}>
         <div className='pt-14'>
             <h1 className='text-[20px] text-center'>ჩამოტვირთე YOUTUBE ვიდეოები MP3 ფორმატში</h1>
 
@@ -110,6 +123,11 @@ function Converter() {
                     }
                 </button>
             </div>
+
+            <div className="pt-6">
+                <Banners />
+            </div>
+
             {
                 html && <div className='converter-hidden-container' style={{ display: 'none' }}>
                     {ReactHtmlParser(html)}
@@ -122,6 +140,7 @@ function Converter() {
                 heading={heading}
                 downloadLink={downloadLink}
                 fileSize={fileSize}
+                duration={vidDuration}
                 convertingFinished={convertingFinished}
             />
         </div>

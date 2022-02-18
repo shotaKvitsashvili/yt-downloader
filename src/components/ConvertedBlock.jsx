@@ -8,13 +8,14 @@ function ConvertedBlock({
     heading,
     downloadLink,
     fileSize,
+    duration,
     convertingFinished
 }) {
     return <div className='mt-10'>
         {
             !isValidUrl
                 ?
-                <div className='rounded-3xl border border-danger bg-danger-light w-full p-5 text-danger text-center text-[14px]'>
+                <div className='rounded-3xl border border-danger bg-danger-light w-full p-5 text-danger text-center text-[14px] mb-8'>
                     <span>სამწუხაროდ ვიდეოს კონვერტაცია ვერ მოხერხდა</span>
                     <div className='py-4'></div>
                     <p>ლინკის სწორად შეყვანისთვის აუცილებელია მისამართი იწყებოდეს: https://www.youtube.com/watch?v=id-ით</p>
@@ -31,6 +32,14 @@ function ConvertedBlock({
                             {
                                 heading && <h2 className='text-xl'>{heading}</h2>
                             }
+
+                            {
+                                duration && <div style={{ fontSize: '14px', marginTop: '10px' }} className="flex items-center my-4 lg:my-0">
+                                    <span className='text-text opacity-60'>ხანგრძლივობა: &nbsp;</span>
+                                    {duration}
+                                </div>
+                            }
+
                             {
                                 fileSize && <div style={{ fontSize: '14px' }} className="flex items-center my-4 lg:my-0">
                                     <span className='text-text opacity-60'>ფაილის ზომა: &nbsp;</span>
