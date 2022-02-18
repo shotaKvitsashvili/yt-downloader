@@ -32,8 +32,6 @@ function Banners() {
         window.open(banner.url)
     }
 
-    console.log(banners);
-
     return (
         <div className='container'>
             {
