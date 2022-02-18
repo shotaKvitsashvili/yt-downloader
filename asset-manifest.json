@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yt-downloader/static/css/main.d8fe4250.css",
-    "main.js": "/yt-downloader/static/js/main.b24e3476.js",
+    "main.js": "/yt-downloader/static/js/main.09060aea.js",
     "static/media/MYRIAD-GEO.otf": "/yt-downloader/static/media/MYRIAD-GEO.166d69f52e7e30bfce21.otf",
     "static/media/HELVETICA-LIGHT.otf": "/yt-downloader/static/media/HELVETICA-LIGHT.63097fd915d715e6d9b1.otf",
     "static/media/maiavto-main.png": "/yt-downloader/static/media/maiavto-main.2001d9642fa49c2c4ae4.png",
@@ -15,10 +15,10 @@
     "static/media/tiktok-icon.svg": "/yt-downloader/static/media/tiktok-icon.c2d9429b14e9b528457a64e32fc33612.svg",
     "index.html": "/yt-downloader/index.html",
     "main.d8fe4250.css.map": "/yt-downloader/static/css/main.d8fe4250.css.map",
-    "main.b24e3476.js.map": "/yt-downloader/static/js/main.b24e3476.js.map"
+    "main.09060aea.js.map": "/yt-downloader/static/js/main.09060aea.js.map"
   },
   "entrypoints": [
     "static/css/main.d8fe4250.css",
-    "static/js/main.b24e3476.js"
+    "static/js/main.09060aea.js"
   ]
 }
