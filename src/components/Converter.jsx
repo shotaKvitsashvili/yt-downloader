@@ -124,9 +124,9 @@ function Converter() {
                 </button>
             </div>
 
-            <div className="pt-6">
+            {/* <div className="pt-6">
                 <Banners />
-            </div>
+            </div> */}
 
             {
                 html && <div className='converter-hidden-container' style={{ display: 'none' }}>

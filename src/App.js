@@ -8,7 +8,6 @@ import Banners from './components/banners';
 import SimilarSites from './components/SimilarSites';
 
 function App() {
-
     return <div className='container'>
         <div className="px-4 sm:px-0 min-h-screen flex flex-col justify-between w-full">
             <div>
@@ -16,9 +15,9 @@ function App() {
                 <Converter />
                 <SimilarSites />
                 <HowToConvert />
-                <div className="pt-6">
+                {/* <div className="pt-6">
                     <Banners />
-                </div>
+                </div> */}
 
             </div>
             <Footer />

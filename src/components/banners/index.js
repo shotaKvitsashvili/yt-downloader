@@ -35,7 +35,7 @@ function Banners() {
 
     return (
         <div className='container'>
-            {
+            {/* {
                 banners && <>
                     {
                         (screenSize >= screenSizes.laptop) && <div className='cursor-pointer banner-div rounded overflow-hidden h-[120px] md:h-auto' onClick={() => redirectOutside(banners['new-banner-1330'])}>
@@ -61,7 +61,7 @@ function Banners() {
                         </div>
                     }
                 </>
-            }
+            } */}
         </div>
     )
 }
